@@ -17,8 +17,8 @@ const processer = async (job) => {
 
 await addWorker(queueOptions.name, processer, workerOptions)
 
-const queueCount = await queue.count()
-console.log(queueCount)
+// const queueCount = await queue.count()
+// console.log(queueCount)
 
 // const jobState = await queue.getJob()
 // console.log(jobState)
