@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-bull-example",
+  "version": "1.0.0",
+  "description": "Node.js Null Example",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "bull",
+    "bull"
+  ],
+  "author": "metncelik",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^4.11.4",
+    "dotenv": "^16.3.1",
+    "ioredis": "^5.3.2",
+    "nodemon": "^3.0.1"
+  }
+}
